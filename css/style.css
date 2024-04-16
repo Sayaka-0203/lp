@@ -76,20 +76,18 @@
   padding-top: 50px;
 }
 
-.figure{
+figure{
   margin: 0 auto;
 }
 
-.figure img{
+figure img{
   vertical-align: top;
   width: 250px;
   height: auto;
-  flex: 4;
 }
 
 .right{
-  margin: 0 auto;
-  flex: 6;
+  width: 60%;
 }
 
 .flex .title{
@@ -137,7 +135,7 @@
   opacity: 0.7;
 }
 
-.skills-img img:first-child,.skills-img img:nth-child(2),.skills-img img:nth-child(3){
+.skills-img a:first-child,.skills-img a:nth-child(2),.skills-img a:nth-child(3){
   margin-top: 0px;
 }
 
