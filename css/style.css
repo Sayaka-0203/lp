@@ -45,29 +45,25 @@
 }
 
 .keyvisual{
-  position: relative;
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
   height: 935px;
 }
 
-.keyvisual h1,.keyvisual h2{
-  position: absolute;
-  margin: 0 auto;
-}
-
-h1.maintitle{
-  top: 400px;
+.maintitle{
+  padding-top: 400px;
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
   margin-bottom: 30px;
+  text-align: center;
 }
 
-h2.subtitle{
-  bottom: 400px;
+.subtitle{
+  padding-bottom: 400px;
   font-size: 40px;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
 
 .work{
