@@ -21,7 +21,7 @@
   background: #fff;
 }
 
-.fas {
+.header-nav .fas {
   color: #777;
 }
 
@@ -50,21 +50,24 @@
   height: 935px;
 }
 
-.keyvisual h1{
+.keyvisual h1,.keyvisual h2{
   position: absolute;
-  font-weight: 700;
-  text-align: center;
-  bottom: 400px;
-  font-size: 40px;
-  color: #fff;
+  margin: 0 auto;
 }
 
-.keyvisual h1 span{
-  display: block;
+h1.maintitle{
   top: 400px;
-  margin-bottom: 30px;
   font-size: 65px;
+  font-weight: 700;
   color: #6ba7eb;
+  margin-bottom: 30px;
+}
+
+h2.subtitle{
+  bottom: 400px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
 }
 
 .work{
@@ -76,11 +79,8 @@
   padding-top: 50px;
 }
 
-figure{
+img.pcimg{
   margin: 0 auto;
-}
-
-figure img{
   vertical-align: top;
   width: 250px;
   height: auto;
@@ -205,7 +205,7 @@ figure img{
   padding: 200px 0px;
 }
 
-.fab{
+.fab,.sns-nav .fas{
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
