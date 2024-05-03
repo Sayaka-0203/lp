@@ -102,16 +102,17 @@
 }
 
 .maintitle{
-  padding-top: 400px;
+  padding: 400px 0px 0px;
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
   margin-bottom: 30px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .subtitle{
-  padding-bottom: 400px;
+  padding: 0px 0px 400px;
   font-size: 40px;
   font-weight: 700;
   color: #fff;
@@ -124,12 +125,13 @@
   }
   .maintitle{
     font-size: 40px;
-    padding-top: 200px;
+    padding: 200px 0px 0px;
+    box-sizing: border-box;
   }
 
   .subtitle{
     font-size: 30px;
-    padding-bottom: 200px;
+    padding: 0px 0px 200px;
   }
 }
 
@@ -139,12 +141,13 @@
   }
   .maintitle{
     font-size: 40px;
-    padding-top: 250px;
+    padding: 250px 0px 0px ;
+    box-sizing: border-box;
   }
 
   .subtitle{
     font-size: 30px;
-    padding-bottom: 250px;
+    padding: 0px 0px 250px;
   }
 }
 
