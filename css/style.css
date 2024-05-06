@@ -99,7 +99,7 @@
 .keyvisual{
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
   height: auto;
-  margin: 78px 0px 0px;
+  margin-top: 78px ;
 }
 
 .maintitle{
@@ -124,13 +124,13 @@
     width: 100%;
   }
   .maintitle{
-    font-size: 40px;
-    padding: 250px 0px 0px ;
+    font-size: 65px;
+    padding-top: 250px;
   }
 
   .subtitle{
     font-size: 30px;
-    padding: 0px 0px 250px ;
+    padding-bottom: 250px ;
   }
 }
 
@@ -140,12 +140,12 @@
   }
   .maintitle{
     font-size: 40px;
-    padding: 200px 0px 0px ;
+    padding-top: 200px ;
   }
 
   .subtitle{
     font-size: 30px;
-    padding: 0px 0px 200px ;
+    padding-bottom: 200px ;
   }
 }
 
